@@ -24,7 +24,7 @@ vector<int> primes_(int n) {vector<bool> sieve(n+1, true);vector<int> primes;for
 inline int lcm(int a ,int b){return a*b/__gcd(a,b);}
 //calculate lcm of entire vector
 int lcm_v(vector<int>&v){int ans=1;for (auto & it : v){ans=lcm(ans,it);}return ans;}
-//prints vector
+//prints vec
 void print_vec(vector<int>&v){for (auto & it : v){cout <<it<<" ";}}
  
 
